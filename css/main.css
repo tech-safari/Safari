@@ -1,0 +1,180 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park|Lora|Muli|Nunito|Public+Sans|Raleway|Rubik|Source+Sans+Pro&display=swap');
+
+/*
+
+font-family: 'Kulim Park', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Public Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+*/
+
+body{
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+/* Menu prinicpal */
+.menu-bar{
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu-bar .logo{
+    text-align: left;
+}
+.menu-bar .logo h2{
+    color: #fff;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.menu-options {
+    font-size: 16px;
+    font-family: 'Kulim Park', sans-serif;
+    padding-top: 15px;
+}
+
+.menu-options ul li{
+    float: right;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.menu-options ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.menu-options ul li a:after{
+    display: block;
+    content: '';
+    border-bottom: solid 2px #6d97ff;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+
+.menu-options ul li a:hover:after{
+    transform: scaleX(1);
+}
+
+
+/* Banner Principal */
+.banner-principal{
+    height: 100vh;
+    text-align: center;
+    padding-top: 20rem;
+    background-color: rgba(51, 67, 87, 0.301);
+}
+
+.banner-text{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #ecf1ff;
+    padding-top: 10px;
+}
+
+.banner-text p{
+    word-wrap: break-word;
+}
+
+
+.btn-container{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.banner-btn span{
+    padding: 10px 50px 10px 50px;
+    background-color:transparent;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+
+.banner-btn span:hover{
+    background-color:#6d97ff;
+    transition: 900ms;
+}
+
+
+/* Nosotros */
+#nosotros{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #edeef8e6;
+}
+
+.border-us{
+    border-radius: 10px;
+    border: 1.4px solid #6d97ff;
+    background-color: rgb(233, 233, 233);
+    padding: 40px 5px 100px 5px;
+}
+.us-container{
+    text-align: center;
+    margin-bottom: 10px;
+ 
+}
+
+#nosotros img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #6d97ff;
+}
+#nosotros h6, #nosotros p{
+    color: rgb(104, 103, 103);
+}
+#nosotros .img-text{
+    margin-top: 15px;
+}
+
+#nosotros hr{
+    border-top: 1px solid #6d97ff;
+    margin-top: 30px;
+    width: 50%;
+}
+
+
+.verde{
+    background-color:#36ab36;
+    height: 300px;
+}
+
+.rojo{
+    background-color:#ab3232;
+    height: 100px;
+}
+
+.azul{
+    background-color: #3636ab;
+    height: 100px;
+}
+
+.amarillo{
+    background-color: #96ab36;
+    height: 100px;
+}
+
+.rosado{
+    background-color: #ab36a5;
+    height: 100px;
+}
+
